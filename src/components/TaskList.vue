@@ -64,9 +64,34 @@ defineProps<{
   background: rgba(236, 236, 236, 0.377);
   padding: 1rem;
   border-radius: 8px;
+  max-width: 800px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.task-card p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .task-card {
+    padding: 0.75rem;
+    max-width: 300px;
+  }
+
+  .task-card p {
+    font-size: 0.9em;
+  }
+
+  .meta {
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: flex-start;
+  }
+}
 .priority {
   padding: 4px 8px;
   border-radius: 4px;
