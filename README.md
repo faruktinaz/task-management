@@ -12,6 +12,7 @@ Modern and responsive task management application built with Vue 3
 1. Clone the Repo:
 ```bash
 git clone [repo-url]
+cd task-management
 ```
 ## Project Setup
 
@@ -23,10 +24,4 @@ npm install
 
 ```sh
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
 ```
