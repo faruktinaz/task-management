@@ -9,7 +9,7 @@ Modern and responsive task management application built with Vue 3
 -  Responsive design
 -  Vue 3 Composition API & TypeScript
 
-1. Clone the Repo:
+Clone the Repo:
 ```bash
 git clone [repo-url]
 cd task-management
